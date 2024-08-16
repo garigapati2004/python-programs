@@ -7,7 +7,7 @@ def is_palindrome(s):  # defining a function to check if a sting s is a palindro
     return s == s[::-1]  # s[::-1] creates a reversed version of the string and s == s[::-1] checks if the original string is same as the reversed string
 
 # Get input from the user
-user_input = input("Enter a string to check if it's a palindrome: ")   # prompts the user for the input
+user_input = input("Enter a string : ")   # prompts the user for the input
 
 # Check if the input is a palindrome and print the result
 if is_palindrome(user_input):
